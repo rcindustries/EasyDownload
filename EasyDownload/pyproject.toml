@@ -1,0 +1,19 @@
+[project]
+name = "easy_download"
+version = "0.1.0"
+description = "EasyDownload is a free python module to easily download file and get the percentage value easily"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "FUN & FRIGHTS" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "requests>=2.28.0"
+]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
